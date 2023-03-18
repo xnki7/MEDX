@@ -13,9 +13,9 @@ function AboutUs() {
         <div className="right_content">
           <h1>About Us</h1>
           <p className="about_us_para">
-            "Welcome to med-X Hospital, a decentralized healthcare facility
+            "Welcome to med-X Hospital, a decentralized mental healthcare facility
             dedicated to providing high-quality to our community. Our mission is
-            to improve the health and well-being of the individuals and families
+            to improve the mental health and well-being of the individuals and families
             we serve by providing compassionate, innovative, and evidence-based
             care.”
           </p>
