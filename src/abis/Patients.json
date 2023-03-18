@@ -1,0 +1,196 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_patientName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_height",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_mobNo",
+				"type": "string"
+			}
+		],
+		"name": "addPatients",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			}
+		],
+		"name": "delUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			}
+		],
+		"name": "getAge",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			}
+		],
+		"name": "getHeight",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			}
+		],
+		"name": "getMobNo",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			}
+		],
+		"name": "getPatientName",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "patients",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "patientAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "patientName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "height",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "mobNo",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_patientName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_height",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_mobNo",
+				"type": "string"
+			}
+		],
+		"name": "updateUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

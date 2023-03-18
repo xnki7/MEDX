@@ -1,0 +1,284 @@
+[
+	{
+		"inputs": [],
+		"name": "Appointment__TransferFailed",
+		"type": "error"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address payable",
+				"name": "_docAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_docName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_fee",
+				"type": "uint256"
+			}
+		],
+		"name": "addDoctors",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "appointmentId",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "appointments",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "ID",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "patientAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "patientName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "time",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "doctorAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "doctorName",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "payment",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_patientAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_patientName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_time",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_docAddr",
+				"type": "address"
+			}
+		],
+		"name": "bookAppointment",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "doctors",
+		"outputs": [
+			{
+				"internalType": "address payable",
+				"name": "addr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "availablity",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "fee",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "getAppointmentDate",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "getAppointmentTime",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "getDoctorAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "getDoctorName",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "getPatientAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_ID",
+				"type": "uint256"
+			}
+		],
+		"name": "getPatientName",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

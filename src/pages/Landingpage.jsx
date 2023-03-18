@@ -1,5 +1,6 @@
 import React from "react";
 import "./Landingpage.css";
+import { Link } from "react-router-dom";
 
 function Landingpage() {
   return (
@@ -13,9 +14,9 @@ function Landingpage() {
             <h1 className="head">Welcome To Med-X .</h1>
             <h1 className="head">This Is A Slogan</h1>
             <p className="slogan_para">
-              Elevating mental healthcare with the power of blockchain
+              ``Elevating mental healthcare with the power of blockchain``
             </p>
-            <button className="appointment">Book An Appointment Now</button>
+            <Link to="/doctors"><button>Book An Appointment Now</button></Link>
           </div>
           <div className="quality">
             <div className="leftquality">
