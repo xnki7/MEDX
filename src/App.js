@@ -87,7 +87,7 @@ function App() {
             path="bookappointment5"
             element={
               <BookAppointment
-                name="Dr. Dhruv Singh"
+                name="Dr. Ganpat Singh"
                 spec="Radiologist"
                 dist="6.2"
                 rate="4.1"
@@ -100,7 +100,7 @@ function App() {
             path="bookappointment6"
             element={
               <BookAppointment
-                name="Dr. Arvind Sharama"
+                name="Dr. Prakash Sharama"
                 spec="Gynecologist"
                 dist="7.7"
                 rate="3.5"

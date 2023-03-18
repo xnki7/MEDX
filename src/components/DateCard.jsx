@@ -5,7 +5,7 @@ function DateCard(props) {
   return (
     <div className="date_card">
         <p className="date">{props.date}</p>
-        <p className="month">Dec</p>
+        <p className="month">March</p>
     </div>
   )
 }
