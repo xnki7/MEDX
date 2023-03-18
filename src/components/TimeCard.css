@@ -1,0 +1,20 @@
+.time_card{
+    width: fit-content;
+    height: fit-content;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #13707c81;
+    border-radius: 15px;
+}
+
+.time_card:hover{
+    background-color: #13707c;
+}
+
+.time_card p{
+    font-size: 1.25rem;
+    color: white;
+    margin: 0;
+}

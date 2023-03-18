@@ -1,0 +1,29 @@
+.date_card{
+    height: 6rem;
+    width: 6rem;
+    background-color: #13707c81;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 4rem;
+}
+
+.date_card:hover{
+    background-color: #13707c;
+}
+
+.date_card .date{
+    font-size: 2rem;
+    color: white;
+    padding-top: 0.9rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.date_card .month{
+    font-size: 1.4rem;
+    color: white;
+    padding-bottom: 0.5rem;
+}

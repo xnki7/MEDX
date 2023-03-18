@@ -1,0 +1,104 @@
+.Navbar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+h1.medx {
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-left: 0.25rem;
+  color: #004F59;
+}
+
+.logo {
+  height: 85px;
+  width: 344px;
+}
+
+.right {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.wallet_pic{
+    height: 1.7rem;
+    /* width: 1rem; */
+    margin-left: 0.25rem;
+    border-radius: 100%;
+}
+
+button {
+    /* display: flex;
+    align-items: center; */
+
+  --color: #004F59;
+  text-align: center;
+  font-family: inherit;
+  display: inline-block;
+  width: auto;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  height: 2.6em;
+  /* line-height: 2.5em; */
+  margin: 10px;
+  position: relative;
+  overflow:hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 35px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #fff;
+  min-width: fit-content;
+}
+
+button.connect_wallet{
+    background-color: rgb(218, 239, 233);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 250px;
+  width: 450px;
+  border-radius: 35%;
+}
+
+button:hover {
+  color: #fff;
+  transform: scale(1.1);
+  background-color: var(--color);
+  transition: all 0.5s;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.5s;
+}
+
+button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+button:active:before {
+  background: #004F59;
+  transition: background 0s;
+}

@@ -1,0 +1,91 @@
+.doctors .doctor_cards_content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.doctors .doctor_cards_content2 {
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.doctors .doctors_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.doctors .doctors_header h1 {
+  color: #177480;
+}
+
+.doctors {
+  background-color: #acd8e1;
+}
+
+.doctors button {
+  /* display: flex;
+  align-items: center; */
+
+--color: #004F59;
+text-align: center;
+font-family: inherit;
+display: inline-block;
+width: auto;
+padding-left: 1.7rem;
+padding-right: 1.7rem;
+height: 2.6em;
+/* line-height: 2.5em; */
+margin: 10px;
+position: relative;
+overflow:hidden;
+border: 2px solid var(--color);
+transition: color 0.5s;
+z-index: 1;
+font-size: 17px;
+border-radius: 35px;
+font-weight: 500;
+color: var(--color);
+background-color: #fff;
+min-width: fit-content;
+}
+
+.doctors button:before {
+content: "";
+position: absolute;
+z-index: -1;
+background: var(--color);
+height: 250px;
+width: 450px;
+border-radius: 35%;
+}
+
+.doctors button:hover {
+color: #fff;
+transform: scale(1.1);
+background-color: var(--color);
+transition: all 0.5s;
+}
+
+.doctors button:before {
+top: 100%;
+left: 100%;
+transition: all 0.5s;
+}
+
+.doctors button:hover:before {
+top: -30px;
+left: -30px;
+}
+
+.doctors button:active:before {
+background: #004F59;
+transition: background 0s;
+}

@@ -1,0 +1,163 @@
+.BookAppointment{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #ACD8E1;
+}
+
+.BookAppointment .left_content{
+    width: 30%;
+    margin: 2rem;
+}
+
+.BookAppointment .doctor_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BookAppointment .left_content img{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 15px;
+}
+
+.BookAppointment .left_content .doctor_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BookAppointment .left_content .name{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    color: #004149;
+}
+
+.BookAppointment .left_content .specialization{
+    font-size: 1.5rem;
+    color: #0d454d;
+}
+
+.BookAppointment .contact_buttons{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BookAppointment .doctor_more_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    width: 60%;
+}
+
+.BookAppointment .doctor_more_info p{
+    font-size: 1.25rem;
+}
+
+.BookAppointment .right_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.BookAppointment .right_content h2{
+    color: #004149;
+    text-align: center;
+    font-weight: bolder;
+    width: 80%;
+}
+
+.BookAppointment .right_content .date_cards, .time_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.BookAppointment .right_content .select_date_title, .select_time_title, .description_title{
+    font-size: 2rem;
+    color: #004F59;
+    font-weight: 500;
+}
+
+.BookAppointment .right_content .description_content{
+    color: #156c77;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 450;
+}
+
+.BookAppointment .right_content button{
+    width: 81%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.BookAppointment button {
+    /* display: flex;
+    align-items: center; */
+
+  --color: #004F59;
+  text-align: center;
+  font-family: inherit;
+  display: inline-block;
+  width: auto;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  height: 2.6em;
+  /* line-height: 2.5em; */
+  margin: 10px;
+  position: relative;
+  overflow:hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 35px;
+  font-weight: 500;
+  color: var(--color);
+  background-color: #fff;
+  min-width: fit-content;
+}
+
+.BookAppointment button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 250px;
+  width: 450px;
+  border-radius: 35%;
+}
+
+.BookAppointment button:hover {
+  color: #fff;
+  transform: scale(1.1);
+  background-color: var(--color);
+  transition: all 0.5s;
+}
+
+.BookAppointment button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.5s;
+}
+
+.BookAppointment button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.BookAppointment button:active:before {
+  background: #004F59;
+  transition: background 0s;
+}

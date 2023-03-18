@@ -1,0 +1,43 @@
+.recent_appointments{ 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 4rem;
+}
+
+.recent_appointments .left_content .name{
+    color: #177480;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.recent_appointments .left_content .specialization{
+    color: #177480;
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.recent_appointments .left_content .distance{
+    color: #177480;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.recent_appointments .right_content .your_rating{
+    color: #177480;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.recent_appointments .right_content .stars{
+    color: #177480;
+    font-size: 1.25rem;
+    margin: 0;
+}

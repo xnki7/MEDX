@@ -1,0 +1,51 @@
+.about__us{
+    background-color: #acd8e1;
+    display: flex;
+}
+
+.about__us .left_content{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.about__us .left_content img{
+    height: 100%;
+    width: 100%;
+}
+
+.about__us .right_content{
+    width: 60%;
+    padding-top: 1.5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 0;
+}
+
+.about__us .right_content h1, h2{
+    font-weight: 650;
+    color: #004149;
+}
+
+.about__us .right_content .about_us_para{
+    color: #125b64;
+    font-size: 1.25rem;
+}
+
+.about__us .right_content button{
+    width: 100%;
+    margin-left: 0;
+}
+
+.about__us .right_content h2{
+    padding-top: 1.5rem;
+}
+
+.about__us .right_content .team_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
