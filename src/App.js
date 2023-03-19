@@ -79,6 +79,8 @@ function App() {
             path="bookappointment1"
             element={
               <BookAppointment
+                prov={provider}
+                acc={account}
                 name="Dr. Ajay Singh"
                 spec="psychiatrist"
                 dist="1.2"
@@ -92,6 +94,8 @@ function App() {
             path="bookappointment2"
             element={
               <BookAppointment
+                prov={provider}
+                acc={account}
                 name="Dr. Vineet Goyal"
                 spec="psychiatrist"
                 dist="11.5"
@@ -105,6 +109,8 @@ function App() {
             path="bookappointment3"
             element={
               <BookAppointment
+                prov={provider}
+                acc={account}
                 name="Dr. Ayush Rai"
                 spec="psychiatrist"
                 dist="3.9"
@@ -118,6 +124,8 @@ function App() {
             path="bookappointment4"
             element={
               <BookAppointment
+                prov={provider}
+                acc={account}
                 name="Dr. Vineesh Rao"
                 spec="psychiatrist"
                 dist="4.1"
@@ -131,6 +139,8 @@ function App() {
             path="bookappointment5"
             element={
               <BookAppointment
+                prov={provider}
+                acc={account}
                 name="Dr. Ganpat Singh"
                 spec="psychiatrist"
                 dist="6.2"
@@ -144,6 +154,8 @@ function App() {
             path="bookappointment6"
             element={
               <BookAppointment
+                prov={provider}
+                acc={account}
                 name="Dr. Prakash Sharama"
                 spec="psychiatrist"
                 dist="7.7"
@@ -157,6 +169,8 @@ function App() {
             path="bookappointment1"
             element={
               <BookAppointment
+                prov={provider}
+                acc={account}
                 name="Dr. Ajay Singh"
                 spec="psychiatrist"
                 dist="1.2"
