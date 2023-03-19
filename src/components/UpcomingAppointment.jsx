@@ -10,7 +10,7 @@ function UpcomingAppointment(props) {
             <p className="distance">📍 {props.dist} km away</p>
         </div>
         <div className="right_content">
-            <p className="date">{props.date} Dec</p>
+            <p className="date">{props.date} March</p>
             <p className="time">{props.time} AM</p>
         </div>
     </div>

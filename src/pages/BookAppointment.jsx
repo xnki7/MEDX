@@ -4,8 +4,25 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import DateCard from "../components/DateCard";
 import TimeCard from "../components/TimeCard";
 import "./BookAppointment.css";
+// import { useState } from "react";
 
 function BookAppointment(props) {
+
+  // // eslint-disable-next-line
+  // const [date, setDate] = useState();
+  // // eslint-disable-next-line  
+  // const [time, setTime] = useState();
+
+  // function dateHandler(data){
+  //   console.log(date);
+  //   setDate(data);
+  // }
+
+  // function timeHandler(data){
+  //   console.log(time);
+  //   setTime(data);
+  // }
+
   return (
     <>
       <div className="BookAppointment">
