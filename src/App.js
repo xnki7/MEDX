@@ -22,7 +22,8 @@ function App() {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     setProvider(provider);
 
-    const network = await provider.getNetwork();
+    // // eslint-disable-next-line
+    // const network = await provider.getNetwork();
 
     const AppointmentsContract = new ethers.Contract(
       "0x5fbdb2315678afecb367f032d93f642f64180aa3",
